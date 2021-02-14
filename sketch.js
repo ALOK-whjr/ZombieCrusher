@@ -50,11 +50,11 @@ function setup() {
   gameOver.addImage(gameOverImg);
   gameOver.scale = 1.2;
   gameOver.visible = false;
+  music.play()
 }
 
 function draw() {
   background(bgImg4);
-  //music.play()
   if(keyDown('left')){
     car.x = car.x - 5;
   }
